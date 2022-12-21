@@ -14,8 +14,6 @@ if __name__ == '__main__':
 
     for t_itr in range(t): #para cada partida del numero t
         n = int(input("¿Con cuantas piedras quieres jugar en esta partida?: ").strip()) #n va a valer lo que escribas en la terminal, hay q escribir t nº de n
-        jugador1 = P1
-        jugador2 = P2
         if n == 1:
             print("Pierdes")
         elif n == 2:
